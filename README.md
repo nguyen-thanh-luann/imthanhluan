@@ -1,5 +1,7 @@
 # Nguyen Thanh Luan Porfolio Website
 
+Visit live website: https://imthanhluan.vercel.app
+
 ## Getting Started
 
 First, run the development server:

@@ -2,6 +2,7 @@ import {
 	EmailIconOutline,
 	GithubCircelIcon,
 	LinkedInIconOutline,
+	SkypeIcon,
 	TelegramIconOutline,
 } from "@/assets";
 import { CONTACT_SECTION_ID } from "@/constants";
@@ -22,21 +23,13 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 				</p>
 			</Fade>
 
-			<div className="flex items-center gap-8 justify-center mb-12">
+			<div className="flex items-center gap-5 justify-center mb-12">
 				<Link
 					className="hover:scale-125 duration-200 ease-linear"
 					href="https://github.com/nguyen-thanh-luann"
 					target="_blank"
 				>
 					<GithubCircelIcon className="text-blue-300 w-[30px] h-[30px]" />
-				</Link>
-
-				<Link
-					className="hover:scale-125 duration-200 ease-linear"
-					href="https://t.me/imthanhluan"
-					target="_blank"
-				>
-					<TelegramIconOutline className="text-blue-300 w-[30px] h-[30px]" />
 				</Link>
 
 				<Link
@@ -53,6 +46,22 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 					target="_blank"
 				>
 					<LinkedInIconOutline className="text-blue-300 w-[30px] h-[30px]" />
+				</Link>
+
+				<Link
+					className="hover:scale-125 duration-200 ease-linear"
+					href="https://t.me/imthanhluan"
+					target="_blank"
+				>
+					<TelegramIconOutline className="text-blue-300 w-[30px] h-[30px]" />
+				</Link>
+
+				<Link
+					className="hover:scale-125 duration-200 ease-linear"
+					href="https://join.skype.com/invite/xQctMfOVRhvo"
+					target="_blank"
+				>
+					<SkypeIcon className="text-blue-300 w-[30px] h-[30px]" />
 				</Link>
 			</div>
 
