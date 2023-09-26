@@ -20,7 +20,7 @@ export const EXPERIENCES = [
 
 				<p className={descrLineStyle}>
 					💙 Allows users to look up genuine product information by scanning the qr code or entering
-					the product's serial number.
+					serial number of product.
 				</p>
 
 				<p className={descrLineStyle}>
@@ -30,7 +30,7 @@ export const EXPERIENCES = [
 
 				<p className={descrLineStyle}>
 					💙 Create and valid forms to collect comments and contacts as well as user contributions
-					about the company's services with react hook form and yup resolver...
+					about the {`company's`} services with react hook form and yup resolver...
 				</p>
 
 				<p className={descrLineStyle}>

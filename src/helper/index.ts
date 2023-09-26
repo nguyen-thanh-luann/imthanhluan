@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
-export const useScrollToSection = (sectionId: string) => {
-	const element = document.getElementById(sectionId);
-	if (element) {
-		element.scrollIntoView({ behavior: "smooth" });
-	}
-};
+// export const useScrollToSection = (sectionId: string) => {
+// 	const element = document.getElementById(sectionId);
+// 	if (element) {
+// 		element.scrollIntoView({ behavior: "smooth" });
+// 	}
+// };
 
 export const useScrollTop = () => {
 	const [height, setHeight] = useState<number>(0);

@@ -1,3 +1,5 @@
+"use-client";
+
 import {
 	ABOUT_SECTION_ID,
 	CONTACT_SECTION_ID,
@@ -5,8 +7,6 @@ import {
 	PROJECT_SECTION_ID,
 } from "@/constants";
 import classNames from "classnames";
-import React from "react";
-import { useScrollToSection } from "@/helper";
 import Fade from "react-reveal/Fade";
 
 interface HeaderProps {
@@ -35,8 +35,10 @@ export const Header = ({ className }: HeaderProps) => {
 	];
 
 	const hanldeClick = (sectionId: string) => {
-		console.log({ sectionId });
-		useScrollToSection(sectionId);
+		const element = document.getElementById(sectionId);
+		if (element) {
+			element.scrollIntoView({ behavior: "smooth" });
+		}
 	};
 
 	return (

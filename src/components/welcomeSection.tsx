@@ -24,7 +24,9 @@ export const WelcomeSection = ({ className }: WelcomeSectionProps) => {
 
 			<Fade bottom>
 				<p className="text-white text-xl sm:text-2xl md:text-4xl text-center mb-4 font-bold">
-					I'm <span className="text-blue-300">Nguyen Thanh Luan</span>
+					{`I'm`}
+
+					<span className="text-blue-300">Nguyen Thanh Luan</span>
 				</p>
 			</Fade>
 

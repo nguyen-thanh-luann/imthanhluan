@@ -70,7 +70,7 @@ export const PROJECTLIST = [
 		description: (
 			<div>
 				<p className={classNames(projectDescrStyle)}>
-					The Landing page of Satavan. Introduce the company's services, information and parners
+					The Landing page of Satavan. Introduce the {`company's`} services, information and parners
 				</p>
 			</div>
 		),
