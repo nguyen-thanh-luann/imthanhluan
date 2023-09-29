@@ -30,19 +30,19 @@ export const AboutSection = ({ className }: AboutSectionProps) => {
 				</div>
 				<div className="flex-1">
 					<p className="text-white mb-8 text-center md:text-start">
-						I’m a developer from Vietnam. I am a highly motivated and enthusiastic. I can
+						{`I’m a developer from Vietnam. I am a highly motivated and enthusiastic. I can
 						collaborate very well with teamates meanwhile working independently is one of my strong
-						points. I am confident that I can be a valuable asset to your team.
+						points. I am confident that I can be a valuable asset to your team.`}
 					</p>
 
 					<p className="text-white mb-8 text-center md:text-start">
-						My experience is mostly about Front-end development but I also explore other fields like
-						Mobile, Back-end and Computer Science.
+						{`My experience is mostly about Front-end development but I also explore other fields like
+						Mobile, Back-end and Computer Science.`}
 					</p>
 
 					<p className="text-white mb-8 text-center md:text-start">
-						Besides from programming, I also learn more about blockchain technology, smart
-						contract,... Because I think this is the future development path for my career
+						{`Besides from programming, I also learn more about blockchain technology, smart
+						contract,... Because I think this is the future development path for my career`}
 					</p>
 				</div>
 			</div>

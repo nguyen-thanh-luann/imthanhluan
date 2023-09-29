@@ -26,12 +26,14 @@ export const WelcomeSection = ({ className }: WelcomeSectionProps) => {
 				<p className="text-white text-xl sm:text-2xl md:text-4xl text-center mb-4 font-bold">
 					{`I'm`}
 
-					<span className="text-blue-300">Nguyen Thanh Luan</span>
+					<span className="text-blue-300"> Nguyen Thanh Luan</span>
 				</p>
 			</Fade>
 
 			<Fade bottom>
-				<p className="text-white text-lg sm:text-xl md:text-xl mb-4 text-center">Web developer</p>
+				<p className="text-white text-lg sm:text-xl md:text-xl mb-4 text-center">
+					Welcome to my portfolio - I'm a web developer
+				</p>
 			</Fade>
 
 			<Fade right>
