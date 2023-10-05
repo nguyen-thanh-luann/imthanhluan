@@ -5,3 +5,4 @@ export * from "./aboutSection";
 export * from "./experienceSection";
 export * from "./contactSection";
 export * from "./scrollToTopButton";
+export * from "./changeThemeButton";

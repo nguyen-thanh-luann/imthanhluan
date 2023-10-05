@@ -12,15 +12,18 @@ import {
 
 export default function Home() {
 	return (
-		<main className="min-h-screen container">
-			<Header className="my-4" />
-			<WelcomeSection />
-			<ExperienceSection />
-			<ProjectsSection />
-			<AboutSection />
-			<ContactSection />
+		<main className="min-h-screen">
+			<Header className="mb-4" />
 
-			<ScrollToTopButton />
+			<div className="container">
+				<WelcomeSection />
+				<ExperienceSection />
+				<ProjectsSection />
+				<AboutSection />
+				<ContactSection />
+
+				<ScrollToTopButton />
+			</div>
 		</main>
 	);
 }

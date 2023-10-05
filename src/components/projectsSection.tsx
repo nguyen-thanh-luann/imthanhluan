@@ -22,7 +22,7 @@ export const ProjectsSection = ({ className }: ProjectsSectionProps) => {
 			className={classNames("min-h-[400px] py-12 border-b-2 border-gray-900", className)}
 		>
 			<Fade right>
-				<p className="text-blue-300 text-xl sm:text-2xl md:text-4xl mb-4 text-center font-bold">
+				<p className="text-blue-950 dark:text-blue-300 text-xl sm:text-2xl md:text-4xl mb-4 text-center font-bold">
 					Projects
 				</p>
 			</Fade>

@@ -1,4 +1,4 @@
-const descrLineStyle = "text-white mb-4 font-bold";
+const descrLineStyle = "text-gray-800 dark:text-white mb-4 font-bold";
 
 export const EXPERIENCES = [
 	{

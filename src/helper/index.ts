@@ -1,12 +1,5 @@
 import { useEffect, useState } from "react";
 
-// export const useScrollToSection = (sectionId: string) => {
-// 	const element = document.getElementById(sectionId);
-// 	if (element) {
-// 		element.scrollIntoView({ behavior: "smooth" });
-// 	}
-// };
-
 export const useScrollTop = () => {
 	const [height, setHeight] = useState<number>(0);
 
@@ -18,4 +11,14 @@ export const useScrollTop = () => {
 	}, []);
 
 	return height;
+};
+
+export const setDarkTheme = () => {
+	document.documentElement.classList.add("dark");
+	localStorage.theme = "dark";
+};
+
+export const setLightTheme = () => {
+	document.documentElement.classList.remove("dark");
+	localStorage.theme = "light";
 };

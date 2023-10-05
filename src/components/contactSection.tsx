@@ -18,7 +18,7 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 	return (
 		<div id={CONTACT_SECTION_ID} className={classNames("min-h-[300px] py-12", className)}>
 			<Fade right>
-				<p className="text-blue-300 text-xl sm:text-2xl md:text-4xl mb-8 text-center font-bold">
+				<p className="text-blue-950 dark:text-blue-300 text-xl sm:text-2xl md:text-4xl mb-8 text-center font-bold">
 					Contact Me
 				</p>
 			</Fade>
@@ -29,7 +29,7 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 					href="https://github.com/nguyen-thanh-luann"
 					target="_blank"
 				>
-					<GithubCircelIcon className="text-blue-300 w-[30px] h-[30px]" />
+					<GithubCircelIcon className="text-blue-950 dark:text-blue-300 w-[30px] h-[30px]" />
 				</Link>
 
 				<Link
@@ -37,7 +37,7 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 					href={"mailto:imthanhluan@gmail.com"}
 					target="_blank"
 				>
-					<EmailIconOutline className="text-blue-300 w-[30px] h-[30px]" />
+					<EmailIconOutline className="text-blue-950 dark:text-blue-300 w-[30px] h-[30px]" />
 				</Link>
 
 				<Link
@@ -45,7 +45,7 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 					href="https://www.linkedin.com/in/imthanhluann"
 					target="_blank"
 				>
-					<LinkedInIconOutline className="text-blue-300 w-[30px] h-[30px]" />
+					<LinkedInIconOutline className="text-blue-950 dark:text-blue-300 w-[30px] h-[30px]" />
 				</Link>
 
 				<Link
@@ -53,7 +53,7 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 					href="https://t.me/imthanhluan"
 					target="_blank"
 				>
-					<TelegramIconOutline className="text-blue-300 w-[30px] h-[30px]" />
+					<TelegramIconOutline className="text-blue-950 dark:text-blue-300 w-[30px] h-[30px]" />
 				</Link>
 
 				<Link
@@ -61,11 +61,11 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 					href="https://join.skype.com/invite/xQctMfOVRhvo"
 					target="_blank"
 				>
-					<SkypeIcon className="text-blue-300 w-[30px] h-[30px]" />
+					<SkypeIcon className="text-blue-950 dark:text-blue-300 w-[30px] h-[30px]" />
 				</Link>
 			</div>
 
-			<p className="text-center text-white">
+			<p className="text-center text-gray-800 dark:text-white">
 				Made with ❤️ by <strong>Nguyen Thanh Luan</strong>
 			</p>
 			<p className="text-center text-white">@2023</p>

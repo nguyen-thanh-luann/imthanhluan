@@ -4,3 +4,7 @@ export * from "./email";
 export * from "./linkedin";
 export * from "./skype";
 export * from "./up";
+export * from "./sun";
+export * from "./moon";
+export * from "./times";
+export * from "./menu";
