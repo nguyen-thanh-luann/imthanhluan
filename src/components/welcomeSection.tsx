@@ -32,7 +32,7 @@ export const WelcomeSection = ({ className }: WelcomeSectionProps) => {
 
 			<Fade bottom>
 				<p className="text-gray-800 dark:text-white text-lg sm:text-xl md:text-xl mb-4 text-center">
-					Welcome to my portfolio - I'm a web developer
+					{`Welcome to my portfolio - I'm a web developer`}
 				</p>
 			</Fade>
 
