@@ -8,3 +8,4 @@ export * from "./sun";
 export * from "./moon";
 export * from "./times";
 export * from "./menu";
+export * from "./eye";

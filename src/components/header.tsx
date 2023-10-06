@@ -5,6 +5,7 @@ import {
 	CONTACT_SECTION_ID,
 	EXPERIENCE_SECTION_ID,
 	PROJECT_SECTION_ID,
+	SKILL_SECTION_ID,
 } from "@/constants";
 import classNames from "classnames";
 import Fade from "react-reveal/Fade";
@@ -28,6 +29,10 @@ export const Header = ({ className }: HeaderProps) => {
 		{
 			id: PROJECT_SECTION_ID,
 			title: "Projects",
+		},
+		{
+			id: SKILL_SECTION_ID,
+			title: "Skills",
 		},
 		{
 			id: ABOUT_SECTION_ID,

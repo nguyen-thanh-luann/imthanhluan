@@ -7,6 +7,7 @@ import {
 	Header,
 	ProjectsSection,
 	ScrollToTopButton,
+	SkillSection,
 	WelcomeSection,
 } from "@/components";
 
@@ -19,6 +20,7 @@ export default function Home() {
 				<WelcomeSection />
 				<ExperienceSection />
 				<ProjectsSection />
+				<SkillSection />
 				<AboutSection />
 				<ContactSection />
 

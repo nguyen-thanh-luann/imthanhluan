@@ -2,6 +2,7 @@ import { PROJECTLIST, PROJECT_SECTION_ID } from "@/constants";
 import classNames from "classnames";
 import Link from "next/link";
 import Fade from "react-reveal/Fade";
+import { Tooltip } from "react-tooltip";
 
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -9,7 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import { GithubCircelIcon } from "@/assets";
+import { EyeIcon, GithubCircelIcon } from "@/assets";
 
 interface ProjectsSectionProps {
 	className?: string;
@@ -62,13 +63,25 @@ export const ProjectsSection = ({ className }: ProjectsSectionProps) => {
 							<div className="p-4">
 								<p className="text-white text-xl mb-4 font-bold">{item?.name}</p>
 
-								<div className="mb-4">{item?.description}</div>
+								<div className="mb-4 h-[140px]">{item?.description}</div>
 
-								<div className="flex items-center justify-center">
+								<div className="flex items-center justify-center gap-4">
 									{item?.github && (
-										<Link href={item?.github} target="_blank">
-											<GithubCircelIcon className="text-blue-300 w-[32px] h-[32px] hover:scale-110 duration-150 ease-linear" />
-										</Link>
+										<>
+											<Link id="github-view" href={item?.github} target="_blank">
+												<GithubCircelIcon className="text-blue-300 w-[32px] h-[32px] hover:scale-110 duration-150 ease-linear" />
+											</Link>
+											<Tooltip content="Github" anchorSelect="#github-view" />
+										</>
+									)}
+
+									{item?.demo && (
+										<>
+											<Link id="demo-view" href={item?.demo} target="_blank">
+												<EyeIcon className="text-blue-300 w-[32px] h-[32px] hover:scale-110 duration-150 ease-linear" />
+											</Link>
+											<Tooltip content="Demo" anchorSelect="#demo-view" />
+										</>
 									)}
 								</div>
 							</div>

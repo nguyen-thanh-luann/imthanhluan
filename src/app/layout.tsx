@@ -1,4 +1,5 @@
 import "../styles/index.scss";
+import "react-tooltip/dist/react-tooltip.css";
 import type { Metadata } from "next";
 import classNames from "classnames";
 import { Inter } from "next/font/google";

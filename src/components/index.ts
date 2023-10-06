@@ -6,3 +6,4 @@ export * from "./experienceSection";
 export * from "./contactSection";
 export * from "./scrollToTopButton";
 export * from "./changeThemeButton";
+export * from "./skillSection";
