@@ -9,3 +9,5 @@ export * from "./moon";
 export * from "./times";
 export * from "./menu";
 export * from "./eye";
+export * from "./zalo";
+export * from "./phone";

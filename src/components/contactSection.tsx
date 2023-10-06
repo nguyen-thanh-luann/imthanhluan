@@ -4,6 +4,7 @@ import {
 	LinkedInIconOutline,
 	SkypeIcon,
 	TelegramIconOutline,
+	ZaloIcon,
 } from "@/assets";
 import { CONTACT_SECTION_ID } from "@/constants";
 import classNames from "classnames";
@@ -63,12 +64,20 @@ export const ContactSection = ({ className }: ContactSectionProps) => {
 				>
 					<SkypeIcon className="text-blue-950 dark:text-blue-300 w-[30px] h-[30px]" />
 				</Link>
+
+				<Link
+					className="hover:scale-125 duration-200 ease-linear"
+					href="https://zalo.me/0706431927"
+					target="_blank"
+				>
+					<ZaloIcon className="text-blue-950 dark:text-blue-300 w-[30px] h-[30px]" />
+				</Link>
 			</div>
 
 			<p className="text-center text-gray-800 dark:text-white">
 				Made with ❤️ by <strong>Nguyen Thanh Luan</strong>
 			</p>
-			<p className="text-center text-white">@2023</p>
+			<p className="text-center text-blue-950 dark:text-white">@2023</p>
 		</div>
 	);
 };
