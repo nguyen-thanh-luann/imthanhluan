@@ -1,4 +1,5 @@
 export const avatar = require("./avatar.png");
+export const thumbnail = require("./thumbnail.png");
 
 export const binhan = require("./binhan.png");
 export const binhan1 = require("./binhan1.png");
