@@ -8,11 +8,9 @@ import { thumbnail } from "@/assets";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+	title: "Nguyen Thanh Luan",
+	description: "Welcome to my porfolio - I am a Website Developer",
 	openGraph: {
-		type: "website",
-		url: "https://imthanhluan.vercel.app",
-		title: "Nguyen Thanh Luan",
-		description: "Welcome to my porfolio - I am a Website Developer",
 		images: [
 			{
 				url: `${thumbnail?.default?.src}`,
